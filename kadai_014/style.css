@@ -1,0 +1,28 @@
+
+/*全体の装飾*/
+html{
+    text-align: center;
+    font-family: "Arial", "Meiryo", sans-serif;
+    font-size: 20px;
+}
+
+/*タイトル文字設定*/
+.TitleChara{
+    border-bottom: solid 3px rgb(115,115,114);
+    letter-spacing: 1.2em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 3px 2px 1.5px gray;
+    font-size: 2rem;
+}
+/*文字色設定*/
+.PChara{
+    color:rgb(255,192,203);
+}
+.SkyBChara{
+    color: skyblue;
+}
+/*子要素*/
+.Basic > p {
+    font-weight: bold;
+}
+
