@@ -2,10 +2,10 @@
 html{
     text-align: center;
 }
-h1 p body {
+h1, p, body {
     margin:0;
 }
-p a {
+p, a {
     font-size: 20px;
 }
 
@@ -71,7 +71,7 @@ a:hover{
 /*-----------------レスポンシブデザイン---------------*/
 
 @media screen and (max-width: 768px){
-    .parent div{
+    #parent{
         flex-direction: column;
     }
     h2{
